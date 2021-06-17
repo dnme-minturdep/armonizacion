@@ -1,0 +1,55 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans|Roboto:400,400i,700,700i&display=swap');
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 2px;  
+  line-height: 2rem; /* increases, so wrapping headers don't overlap */ 
+
+}
+
+
+body {
+  font-family: "Roboto";
+  color: #1f1f1f;
+}
+
+
+.distill-site-header .logo img{
+  max-height: 40px; /* Makes logo bigger, default was 20px */
+}
+
+/* --------------Navbar-------------------- */
+
+.distill-site-header{ 
+  padding: 40px 0px;
+  font-size: 15px;
+  font-family: 'Encode Sans', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-color: black  ;
+  
+  /* background-image for fade-to-white color of navbar */
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255,255,255,0.5));   
+  background-color: transparent;
+}
+
+
+
+/* -------------Footer------------------*/
+
+.distill-site-footer {
+  color: #f7f7f7b0;
+  background-color: #1f1f1f;
+  margin-top: 0px;
+  padding: 50px 20px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 12px;
+}
+
+</style>
