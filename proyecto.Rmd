@@ -1,0 +1,27 @@
+---
+title: "Equipo de Trabajo"
+site: distill::distill_website
+---
+
+El proyecto _Armonización de las Estadíticas Provinciales de Turismo_ esta conformado por tres ejes fundamentales: **(i)** actualización metodológica; **(ii)** capacitaciónes; y **(iii)** coordinación y gestión de datos.  
+
+
+#### Actualización Metodológica 
+
+En primer lugar, el proyecto contempla la reedición y revisión periódica de una serie de documentos técnicos que abordan otras problemáticas vinculadas a la producción de estadística de turismo:
+
+**Documento Técnico #1**: Conceptos y elementos básicos para la medición provincial de los turistas
+
+**Documento Técnico #2**: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos
+
+**Documento Técnico #3**: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo
+
+**Documento Técnico #4**: Propuestas Metodológicas para las Encuestas de Perfil del Visitante
+
+**Documento Técnico #5**: Medición de la contribución económica del turismo: actividad y empleo
+
+
+#### Capacitaciones
+
+
+#### Sistema Federal de Gestión de Datos de Turismo

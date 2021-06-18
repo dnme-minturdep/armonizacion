@@ -1,18 +1,22 @@
-name: "armonizacion"
-title: "ARMONIZACION"
+name: "ARMONIZACION"
+title: "INICIO"
 description: |
-  Armonización de Estadísticas Provinciales de Turismo
+  Estadísticas Provinciales de Turismo
 output_dir: "docs"
 navbar:
   logo:
     image: https://www.yvera.tur.ar/images/logo-color.png
     href: http://turismo.gob.ar/
-  left:
+  left: 
+    - text: "Equipo"
+      href:  equipo.html
     - text: "Proyecto"
-      href: index.html
-  right:
-    - text: "Documentos Técnicos"
+      href:  proyecto.html
+    - text: "Materiales"
       menu:
+      - text: "Documentos Técnicos"
+        href: 
+      - text: "---"
       - text: "Documento Técnico #1"
         href: https://dnme-minturdep.github.io/DT1_medicion_turismo/
       - text: "Documento Técnico #2"
@@ -21,8 +25,13 @@ navbar:
         href: https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/
       - text: "Documento Técnico #4"
         href: https://dnme-minturdep.github.io/DT4_perfiles/
+  right:
+    - text: "Datos Abiertos"
+      href: http://datos.yvera.tur.ar/
+    - text: "Estadísticas"
+      href: https://www.yvera.tur.ar/estadistica/
+    
 output:
-
   distill::distill_article:
     css: styles.css
 

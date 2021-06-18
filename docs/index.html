@@ -86,29 +86,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>ARMONIZACION</title>
+  <title>INICIO: ARMONIZACIÓN </title>
 
-  <meta property="description" itemprop="description" content="Armonización de Estadísticas Provinciales de Turismo"/>
+  <meta property="description" itemprop="description" content="ESTADÍSTICAS PROVINCIALES DE TURISMO"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="ARMONIZACION"/>
+  <meta property="og:title" content="INICIO: ARMONIZACIÓN "/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Armonización de Estadísticas Provinciales de Turismo"/>
+  <meta property="og:description" content="ESTADÍSTICAS PROVINCIALES DE TURISMO"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="ARMONIZACION"/>
+  <meta property="og:site_name" content="INICIO"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="ARMONIZACION"/>
-  <meta property="twitter:description" content="Armonización de Estadísticas Provinciales de Turismo"/>
+  <meta property="twitter:title" content="INICIO: ARMONIZACIÓN "/>
+  <meta property="twitter:description" content="ESTADÍSTICAS PROVINCIALES DE TURISMO"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["ARMONIZACION"]},{"type":"character","attributes":{},"value":["Armonización de Estadísticas Provinciales de Turismo\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["ARMONIZACIÓN "]},{"type":"character","attributes":{},"value":["ESTADÍSTICAS PROVINCIALES DE TURISMO\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2044,14 +2044,92 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <style type="text/css">
-  <style>
 
-  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans|Roboto:400,400i,700,700i&display=swap');
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto');
+  @import url('https://fonts.googleapis.com/css2?family=Fira Mono');
 
 
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.0rem;                     /* edited */
+    --code-size:       0.9rem;                     /* edited */
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #37BBED;
+    --heading-color:   #37BBED;
+    --body-color:      #383838;                    /* edited */
+    --aside-color:     #37BBED;
+    --fig-cap-color:   #37BBED;
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    'Encode', sans-serif;         /* edited */
+    --mono-font:       'Fira Mono', monospace;     /* edited */
+    --body-font:       'Roboto', sans-serif;         /* edited */
+    --navbar-font:     'Encode', sans-serif;   /* edited */
+  }
+
+
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       20px;                      /* edited */
+    --text-color:       #FFFFFF;                   /* edited */
+    --text-size:        20px;                      /* edited */
+    --hover-color:      #383838;                   /* edited */
+    --bkgd-color:       rgb(249, 83, 85);          /* edited */
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        20px;
+    --hover-color:      #EE3D8F;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /* PRUEBAS 
+
+
+
+  /*-- Additional custom styles --*/
+
+
+
+  .distill-site-header .logo img{
+    max-height: 40px; /* Makes logo bigger, default was 20px */
+  }
+
+
+
+  .distill-site-header .title {
+      font-weight: 900; 
+  }
+
+  ul > li::marker {
+    color: #EE3D8F;
+  }
+
+  d-title {
+    padding-top: 13rem; /*so that navbar doesn't overlap fixed title */
+  }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display";
+    margin-top: 20px;
+    font-family: "Encode Sans";
     letter-spacing: 2px;  
     line-height: 2rem; /* increases, so wrapping headers don't overlap */ 
 
@@ -2064,41 +2142,61 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
 
-  .distill-site-header .logo img{
-    max-height: 40px; /* Makes logo bigger, default was 20px */
-  }
 
   /* --------------Navbar-------------------- */
 
+
+  .distill-site-nav a {
+    color: black;
+    text-decoration: none;
+  }
+
+
   .distill-site-header{ 
-    padding: 40px 0px;
+    padding: 20px 0px;
     font-size: 15px;
     font-family: 'Encode Sans', sans-serif;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    font-color: black  ;
     
+      
     /* background-image for fade-to-white color of navbar */
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255,255,255,0.5));   
-    background-color: transparent;
+    background-color: #37BBED;
+
   }
 
+  .distill-site-nav a {
+    color: #FFFFFF;
+    background-color: #37BBED;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: black;
+  }
 
 
   /* -------------Footer------------------*/
 
   .distill-site-footer {
     color: #f7f7f7b0;
-    background-color: #1f1f1f;
+    background-color: #37BBED;
     margin-top: 0px;
     padding: 50px 20px;
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 12px;
+    text-align: left;
   }
 
-  </style>
+
+
+
+
+
+
+
+
   </style>
   <!--/radix_placeholder_site_in_header-->
 
@@ -2111,7 +2209,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"ARMONIZACION","description":"Armonización de Estadísticas Provinciales de Turismo","authors":[]}
+{"title":"ARMONIZACIÓN ","description":"ESTADÍSTICAS PROVINCIALES DE TURISMO","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2122,23 +2220,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a class="logo" href="http://turismo.gob.ar/">
 <img src="https://www.yvera.tur.ar/images/logo-color.png" alt="Logo"/>
 </a>
-<a href="index.html" class="title">ARMONIZACION</a>
-<a href="index.html">Proyecto</a>
-</div>
-<div class="nav-right">
+<a href="index.html" class="title">INICIO</a>
+<a href="equipo.html">Equipo</a>
+<a href="proyecto.html">Proyecto</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-Documentos Técnicos
+Materiales
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
+<span class="nav-dropdown-header">Documentos Técnicos</span>
+<hr/>
 <a href="https://dnme-minturdep.github.io/DT1_medicion_turismo/">Documento Técnico #1</a>
 <a href="https://dnme-minturdep.github.io/DT2_encuestas/">Documento Técnico #2</a>
 <a href="https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/">Documento Técnico #3</a>
 <a href="https://dnme-minturdep.github.io/DT4_perfiles/">Documento Técnico #4</a>
 </div>
 </div>
+</div>
+<div class="nav-right">
+<a href="http://datos.yvera.tur.ar/">Datos Abiertos</a>
+<a href="https://www.yvera.tur.ar/estadistica/">Estadísticas</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2148,22 +2251,16 @@ Documentos Técnicos
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>ARMONIZACION</h1>
+<h1>ARMONIZACIÓN</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Armonización de Estadísticas Provinciales de Turismo</p></p>
+<p><p>ESTADÍSTICAS PROVINCIALES DE TURISMO</p></p>
 </div>
 
 
 <div class="d-article">
 <p><em>Armonización de las Estadísticas de Turismo en las Provincias</em> es un proyecto de la Dirección Nacional de Mercados y Estadística de la Subsecretaría de Desarrollo Estratégico del <a href="http://turismo.gob.ar/" title="MINTURDEP">Ministerio de Turismo y Deportes</a>.</p>
 <p>El objetivo general es contribuir con propuestas metodológicas, capacitaciones y herramientas accesibles para los sistemas de estadísticas de turismo provinciales que orienten a producir indicadores provinciales básicos y comparables.</p>
-<p>Además de este, se encuentran disponibles una serie de documentos técnicos que abordan otras problemáticas vinculadas a la producción de estadística de turismo:</p>
-<p><strong>Documento Técnico #1:</strong> Conceptos y elementos básicos para la medición provincial de los turistas</p>
-<p><strong>Documento Técnico #2:</strong> Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos</p>
-<p><strong>Documento Técnico #3</strong>: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo</p>
-<p><strong>Documento Técnico #4:</strong> Propuestas Metodológicas para las Encuestas de Perfil del Visitante</p>
-<p><strong>Documento Técnico #5</strong>: Medición de la contribución económica del turismo: actividad y empleo</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2180,10 +2277,7 @@ Documentos Técnicos
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>(2021)</p>
-<p><a href="http://datos.yvera.tur.ar/">Dirección Nacional de Mercados y Estadísticas</a> del <a href="https://turismo.gob.ar/">Ministerio de Turismo y Deportes de la Nación</a>.</p>
-<p><a href="http://datos.yvera.tur.ar/">Datos Abiertos</a></p>
-<p><a href="https://www.yvera.tur.ar/estadistica/">Estadísticas</a></p>
+<p>Dirección Nacional de Mercados y Estadísticas | Subsecretaría de Desarrollo Estratégico | Ministerio de Turismo y Deportes de la Nación (2021)</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 
