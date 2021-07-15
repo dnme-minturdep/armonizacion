@@ -18,4 +18,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 *Armonización de las Estadísticas de Turismo en las Provincias* es un proyecto de la Dirección Nacional de Mercados y Estadística de la Subsecretaría de Desarrollo Estratégico del [Ministerio de Turismo y Deportes](http://turismo.gob.ar/ "MINTURDEP").
 
-El objetivo general es contribuir con propuestas metodológicas, capacitaciones y herramientas accesibles para los sistemas de estadísticas de turismo provinciales que orienten a producir indicadores provinciales básicos y comparables.
+La finalidad del proyecto es contribuir al fortalecimiento de los sistemas de estadística
+provinciales en post de generar información robusta y confiable de la actividad
+turística de nuestro país. 
+
+Para ello, se elaborarán propuestas metodológicas, capacitaciones y herramientas accesibles que permitan producir indicadores provinciales básicos y comparables.
+
+Los **documentos metodológicos** buscarán abordar las principales problemáticas a la hora de producir estadísticas de turismo sub-nacionales como también reforzar las definiciones y conceptos de turismo según las recomendaciones internacionales.
+
+Las **capacitaciones** pretenden nutrir y fortalecer a los referentes técnicos provinciales
+para poder mejorar la producción de estadísticas locales derivadas de los operativos de encuesta, explotación de registros administrativos y otras fuentes de información utilizadas.
+
+Por último, se trabajará para la construcción de un **SISTEMA FEDERAL DE GESTIÓN DE DATOS DE TURISMO**, herramienta que facilitará el acopio y gestión de los datos producidos por los diferentes organismos provinciales de turismo.
+
+De esta manera, el proyecto de Armonización contribuirá a fortalecer las capacidades técnicas, robustecer la producción de estadísticas de turismo y una mayor sociabilización de la información producida por las distintas unidades administrativas de turismo.
