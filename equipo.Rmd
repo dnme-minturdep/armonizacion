@@ -25,22 +25,19 @@ Mag. Juan Pablo RUIZ NICOLINI
 
 ---
 
-## EQUIPO DE TRABAJO
+##  DIRECCIÓN GENERAL
 
-### DIRECCIÓN GENERAL
+Eugenia Benedetti
 
-Lic. Eugenia Benedetti
+## EQUIPO TÉCNICO
 
-### EQUIPO TÉCNICO
-
-#### COORDINACIÓN
+### COORDINACIÓN
 
 Juan Pablo Ruiz Nicolini
 
 
 
-
-#### REALIZACIÓN
+### REALIZACIÓN
 
 Leila Abduca
 
@@ -64,7 +61,7 @@ Rodrigo Oliver
 
 Lorena Prieto
 
-Elian Soutello
+Elian Soutullo
 
 Daiana Sparta
 
