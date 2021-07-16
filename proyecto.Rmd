@@ -29,7 +29,6 @@ En una segunda instancia, se prevé la capacitación de puntos focales de los go
 
 En paralelo, se procura desarrollar un sistema informático que permita ordenar, homogeneizar, jerarquizar y facilitar la administración de registros, operativos estadísticos y demás datos relativos al sector turísticos de las distintas unidades administrativas.
 
-**Espacios de colaboración e intercambio**
+### Espacios de colaboración e intercambio
 
-Con el fin de generar espacios de colaboración entre los distintos actores vinculados a la producción y explotación de las estadísticas de turismo, el Proyecto de Armonización
-gestionará un foro permanente en donde se habilitarán distintos canales tamáticos que acompañarn el contenido de este micrositio: documentos técnicos, bibliografía y trabajos de interés común. 
+Con el fin de generar espacios de colaboración entre los distintos actores vinculados a la producción y explotación de las estadísticas de turismo, el Proyecto de Armonización gestionará un foro permanente en donde se habilitarán distintos canales tamáticos que acompañarn el contenido de este micrositio: documentos técnicos, bibliografía y trabajos de interés común. 
