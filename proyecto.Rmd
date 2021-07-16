@@ -3,29 +3,33 @@ title: "Proyecto"
 site: distill::distill_website
 ---
 
-El proyecto _Armonización de las Estadíticas Provinciales de Turismo_ esta conformado por tres ejes fundamentales: **(i)** actualización metodológica; **(ii)** capacitaciónes; y **(iii)** coordinación y gestión de datos.  
+El proyecto *Armonización de las Estadísticas Provinciales de Turismo* está conformado por cuatro ejes fundamentales: **(i)** actualización metodológica; **(ii)** capacitaciones; **(iii)** coordinación y gestión de datos; y **(iv)** espacios de colaboración e intercambio de experiencias.
 
-
-### Actualización Metodológica 
+### Actualización Metodológica
 
 En primer lugar, el proyecto contempla la reedición y revisión periódica de una serie de documentos técnicos que abordan otras problemáticas vinculadas a la producción de estadística de turismo:
 
-**Documento Técnico #1**: Conceptos y elementos básicos para la medición provincial de los turistas
+**Documento Técnico \#1**: Conceptos y elementos básicos para la medición provincial de los turistas
 
-**Documento Técnico #2**: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos
+**Documento Técnico \#2**: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos
 
-**Documento Técnico #3**: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo
+**Documento Técnico \#3**: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo
 
-**Documento Técnico #4**: Propuestas Metodológicas para las Encuestas de Perfil del Visitante
+**Documento Técnico \#4**: Propuestas Metodológicas para las Encuestas de Perfil del Visitante
 
-**Documento Técnico #5**: Medición de la contribución económica del turismo: actividad y empleo
+**Documento Técnico \#5**: Medición de la contribución económica del turismo: actividad y empleo
 
-**Documento Técnico #6**: Ciencia de Datos para el Turismo
+**Documento Técnico \#6**: Ciencia de Datos para el Turismo
 
 ### Capacitaciones
 
-En una seguda instancia, se prevee la capacitación de puntos focales de los gobiernos sub nacionales que tengan a cargo la administración, generación y/o análisis de estadísticas de turismo en sus respectivos distritos. 
+En una segunda instancia, se prevé la capacitación de puntos focales de los gobiernos sub nacionales que tengan a cargo la administración, generación y/o análisis de estadísticas de turismo en sus respectivos distritos.
 
 ### Sistema Federal de Gestión de Datos de Turismo
 
-En paralelo, se procura desarrolla un sistema informático que permita ordenar, homogeneizar, jerarquizar y facilitar la adminsitración de registors, operativos estadísticos y demás datos relativos al sector turísticos de las distintas unidades administrativas. 
+En paralelo, se procura desarrollar un sistema informático que permita ordenar, homogeneizar, jerarquizar y facilitar la administración de registros, operativos estadísticos y demás datos relativos al sector turísticos de las distintas unidades administrativas.
+
+**Espacios de colaboración e intercambio**
+
+Con el fin de generar espacios de colaboración entre los distintos actores vinculados a la producción y explotación de las estadísticas de turismo, el Proyecto de Armonización
+gestionará un foro permanente en donde se habilitarán distintos canales tamáticos que acompañarn el contenido de este micrositio: documentos técnicos, bibliografía y trabajos de interés común. 

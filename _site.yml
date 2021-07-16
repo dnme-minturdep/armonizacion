@@ -27,7 +27,7 @@ navbar:
         href: https://dnme-minturdep.github.io/DT4_perfiles/
   right:
     - text: "Datos Abiertos"
-      href: http://datos.yvera.tur.ar/
+      href: http://datos.yvera.gob.ar/
     - text: "Estadísticas"
       href: https://www.yvera.tur.ar/estadistica/
     
