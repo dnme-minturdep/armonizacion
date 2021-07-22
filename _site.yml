@@ -8,8 +8,6 @@ navbar:
     image: https://www.yvera.tur.ar/images/logo-color.png
     href: http://turismo.gob.ar/
   left: 
-    - text: "Equipo"
-      href:  equipo.html
     - text: "Proyecto"
       href:  proyecto.html
     - text: "Materiales"
@@ -28,8 +26,10 @@ navbar:
   right:
     - text: "Datos Abiertos"
       href: http://datos.yvera.gob.ar/
-    - text: "Estadísticas"
+    - text: "Informes"
       href: https://www.yvera.tur.ar/estadistica/
+    - text: "Tableros"
+      href: https://tableros.yvera.tur.ar
     
 output:
   distill::distill_article:
