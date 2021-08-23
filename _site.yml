@@ -8,13 +8,10 @@ navbar:
     image: https://www.yvera.tur.ar/images/logo-color.png
     href: http://turismo.gob.ar/
   left: 
-    - text: "Proyecto"
-      href:  proyecto.html
-    - text: "Materiales"
+   # - text: "Proyecto"
+   #  href:  proyecto.html
+    - text: "Documentos Técnicos"
       menu:
-      - text: "Documentos Técnicos"
-        href: 
-      - text: "---"
       - text: "Documento Técnico #1"
         href: https://dnme-minturdep.github.io/DT1_medicion_turismo/
       - text: "Documento Técnico #2"
