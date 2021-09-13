@@ -1,15 +1,14 @@
-name: "ARMONIZACION"
-title: "INICIO"
+name: "ARMONIZACION ESTADÍSTICA"
+title: "ARMONIZACION"
+favicon: favicon.ico
 description: |
   Estadísticas Provinciales de Turismo
 output_dir: "docs"
 navbar:
   logo:
     image: https://www.yvera.tur.ar/images/logo-color.png
-    href: http://turismo.gob.ar/
+    href: https://www.yvera.tur.ar/estadistica/
   left: 
-   # - text: "Proyecto"
-   #  href:  proyecto.html
     - text: "Documentos Técnicos"
       menu:
       - text: "Documento Técnico #1"
@@ -25,8 +24,10 @@ navbar:
   right:
     - text: "Datos Abiertos"
       href: http://datos.yvera.gob.ar/
+    - text: "Bitácora"
+      href: https://bitacora.yvera.tur.ar/
     - text: "Informes"
-      href: https://www.yvera.tur.ar/estadistica/
+      href: https://www.yvera.tur.ar/estadistica/informe
     - text: "Tableros"
       href: https://tableros.yvera.tur.ar
     
