@@ -17,7 +17,7 @@
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      50px;
+  --title-size:      30px;
   --body-size:       1.0rem;                     /* edited */
   --code-size:       0.9rem;                     /* edited */
   --aside-size:      12px;
@@ -107,7 +107,7 @@ body {
 
 
 .distill-site-header{ 
-  padding: 20px 0px;
+  padding: 10px 0px;
   font-size: 15px;
   font-family: 'Encode Sans', sans-serif;
   letter-spacing: 2px;

@@ -6,7 +6,7 @@ description: |
 output_dir: "docs"
 navbar:
   logo:
-    image: https://www.yvera.tur.ar/images/logo-color.png
+    image: logo.png
     href: https://www.yvera.tur.ar/estadistica/
   left: 
     - text: "Documentos Técnicos"
