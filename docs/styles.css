@@ -1,4 +1,3 @@
-
 /* base variables */
 
 /* Edit the CSS properties in this file to create a custom
@@ -17,7 +16,7 @@
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      30px;
+  --title-size:      30;
   --body-size:       1.0rem;                     /* edited */
   --code-size:       0.9rem;                     /* edited */
   --aside-size:      12px;
@@ -56,15 +55,12 @@ html {
 }
 
 /* PRUEBAS 
-
-
-
 /*-- Additional custom styles --*/
 
 
 
 .distill-site-header .logo img{
-  max-height: 40px; /* Makes logo bigger, default was 20px */
+  max-height: 50px; /* Makes logo bigger, default was 20px */
 }
 
 
@@ -142,11 +138,3 @@ body {
   line-height: 12px;
   text-align: left;
 }
-
-
-
-
-
-
-
-
