@@ -21,6 +21,8 @@ navbar:
         href: https://dnme-minturdep.github.io/DT4_perfiles/
       - text: "Documento Técnico #5"
         href: https://dnme-minturdep.github.io/DT5_actividad_empleo/
+      - text: "Documento Técnico #6"
+        href: https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/
   right:
     - text: "Datos Abiertos"
       href: http://datos.yvera.gob.ar/
