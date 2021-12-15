@@ -11,17 +11,17 @@ navbar:
   left: 
     - text: "Documentos Técnicos"
       menu:
-      - text: "Documento Técnico #1"
+      - text: "#1 Medición del Turismo"
         href: https://dnme-minturdep.github.io/DT1_medicion_turismo/
-      - text: "Documento Técnico #2"
+      - text: "#2 Encuestas"
         href: https://dnme-minturdep.github.io/DT2_encuestas/
-      - text: "Documento Técnico #3"
+      - text: "#3 Registros Administrativos"
         href: https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/
-      - text: "Documento Técnico #4"
+      - text: "#4 Perfiles de Turistas"
         href: https://dnme-minturdep.github.io/DT4_perfiles/
-      - text: "Documento Técnico #5"
+      - text: "#5 Actividad y Empleo"
         href: https://dnme-minturdep.github.io/DT5_actividad_empleo/
-      - text: "Documento Técnico #6"
+      - text: "#6 Ciencia de Datos"
         href: https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/
   right:
     - text: "Datos Abiertos"
