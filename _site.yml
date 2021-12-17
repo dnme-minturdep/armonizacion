@@ -23,6 +23,8 @@ navbar:
         href: https://dnme-minturdep.github.io/DT5_actividad_empleo/
       - text: "#6 Ciencia de Datos"
         href: https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/
+    - text: "Capacitaciones"
+      href: capacitaciones.html  
   right:
     - text: "Datos Abiertos"
       href: http://datos.yvera.gob.ar/
