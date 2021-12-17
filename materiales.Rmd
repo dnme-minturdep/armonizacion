@@ -1,0 +1,38 @@
+---
+title: "Capacitaciones"
+description: |
+  Presentaciones y videos
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Documento Técnico #1: Conceptos y elementos básicos para la medición provincial de los turistas
+
+
+![](https://www.youtube.com/watch?v=SgUjiOcxyxI)
+
+
+
+### Documento Técnico #2: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos
+
+![](https://youtu.be/3t7umC-c9bc)
+
+
+
+### Documento Técnico #3: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo
+
+![](https://youtu.be/dQEFXqjZM-U)
+
+
+
+### Documento Técnico #4: Propuestas Metodológicas para las Encuestas de Perfil del Visitante
+
+![](https://youtu.be/ePhemV6WsLQ)
+
+
+### Documento Técnico #5: Medición de la contribución económica del turismo: actividad y empleo
+
+
+![](https://youtu.be/wXNlFGQi0PM)

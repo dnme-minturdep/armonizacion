@@ -17,7 +17,7 @@ navbar:
         href: https://dnme-minturdep.github.io/DT2_encuestas/
       - text: "#3 Registros Administrativos"
         href: https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/
-      - text: "#4 Perfiles de Turistas"
+      - text: "#4 Perfiles de Visitantes"
         href: https://dnme-minturdep.github.io/DT4_perfiles/
       - text: "#5 Actividad y Empleo"
         href: https://dnme-minturdep.github.io/DT5_actividad_empleo/
