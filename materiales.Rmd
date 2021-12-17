@@ -17,13 +17,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Documento Técnico #2: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos
 
-<iframe width="560" height="315" src="https://youtu.be/3t7umC-c9bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=3t7umC-c9bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
 ### Documento Técnico #3: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo
 
-<iframe width="560" height="315" src="https://youtu.be/dQEFXqjZM-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dQEFXqjZM-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -31,7 +31,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-<iframe width="560" height="315" src="https://youtu.be/ePhemV6WsLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ePhemV6WsLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -40,7 +40,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-<iframe width="560" height="315" src="https://youtu.be/wXNlFGQi0PM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=wXNlFGQi0PM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
