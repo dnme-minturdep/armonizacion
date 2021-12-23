@@ -8,6 +8,8 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Propuestas Metodológicas y Definiciones
+
 ### Documento Técnico \#1: Conceptos y elementos básicos para la medición provincial de los turistas
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SgUjiOcxyxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -75,3 +77,29 @@ knitr::opts_chunk$set(echo = FALSE)
 📄 [Medición de la Contribución Económica del Turismo: Actividad y Empleo](https://github.com/dnme-minturdep/armonizacion/raw/master/man/5.1_Medicio%CC%81n%20de%20la%20contribucio%CC%81n.pdf) 🔽
 
 📄 [Fuentes de Infomración](https://github.com/dnme-minturdep/armonizacion/raw/master/man/5.2_Fuentes%20de%20Informacio%CC%81n.pdf) 🔽
+
+
+## Ciencia de Datos para el Turismo
+
+4 sesiones en las que se introduce el lenguaje de programación R como la caja de herramientas para poder llevar adelante cada tarea y etapa del análisis de datos. 
+
+
+### 📄 [Documento Técnico \#6](https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/) 🔽
+
+
+### Sesión 1: Intro a R, Proyectos, Rmarkdown y lectura de datos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1OjTm3NLIs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Sesión 2: Intro a Manipulación de datos y Visualización  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/35E9ChlK50Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Sesión 3: Manipulación de datos ordenados y Visualización con ggplot2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O4YC5dlH88A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Sesión 4: Tablas, apariencia de gráficos 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jm8j4rZPkQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
