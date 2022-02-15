@@ -25,6 +25,10 @@ navbar:
         href: https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/
     - text: "Capacitaciones"
       href: capacitaciones.html  
+    - text: "Acceso"
+      menu:
+      - text: "Foro"
+        href: https://armonizacionespacio.slack.com/
   right:
     - text: "Datos Abiertos"
       href: http://datos.yvera.gob.ar/

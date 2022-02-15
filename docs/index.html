@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>ARMONIZACION: ESTADÍSTICAS PROVINCIALES DE TURISMO</title>
@@ -456,7 +457,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1863,7 +1864,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2034,7 +2038,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2225,6 +2229,16 @@ Documentos Técnicos
 </div>
 </div>
 <a href="capacitaciones.html">Capacitaciones</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Acceso
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="https://armonizacionespacio.slack.com/">Foro</a>
+</div>
+</div>
 </div>
 <div class="nav-right">
 <a href="http://datos.yvera.gob.ar/">Datos Abiertos</a>
@@ -2253,21 +2267,21 @@ Documentos Técnicos
 <hr />
 <h3 id="actualización-metodológica">Actualización Metodológica</h3>
 <p>En primer lugar, el proyecto contempla la reedición y revisión periódica de una serie de documentos técnicos que abordan otras problemáticas vinculadas a la producción de estadística de turismo:</p>
-<p><strong>Documento Técnico #1</strong>: Conceptos y elementos básicos para la medición provincial de los turistas</p>
-<p><strong>Documento Técnico #2</strong>: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos</p>
-<p><strong>Documento Técnico #3</strong>: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo</p>
-<p><strong>Documento Técnico #4</strong>: Propuestas Metodológicas para las Encuestas de Perfil del Visitante</p>
-<p><strong>Documento Técnico #5</strong>: Medición de la contribución económica del turismo: actividad y empleo</p>
-<p><strong>Documento Técnico #6</strong>: Ciencia de Datos para el Turismo</p>
+<p><a href="https://dnme-minturdep.github.io/DT1_medicion_turismo/"><strong>Documento Técnico #1</strong></a>: Conceptos y elementos básicos para la medición provincial de los turistas</p>
+<p><a href="https://dnme-minturdep.github.io/DT2_encuestas/"><strong>Documento Técnico #2</strong></a>: Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos</p>
+<p><a href="https://dnme-minturdep.github.io/DT3_registros_adminsitrativos/"><strong>Documento Técnico #3</strong></a>: Descripción, análisis y utilización de los Registros Administrativos para la medición del Turismo</p>
+<p><a href="https://dnme-minturdep.github.io/DT4_perfiles/"><strong>Documento Técnico #4</strong></a>: Propuestas Metodológicas para las Encuestas de Perfil del Visitante</p>
+<p><a href="https://dnme-minturdep.github.io/DT5_actividad_empleo/"><strong>Documento Técnico #</strong></a><strong>5</strong>: Medición de la contribución económica del turismo: actividad y empleo</p>
+<p><a href="https://dnme-minturdep.github.io/DT6_ciencia_de_datos_turismo/"><strong>Documento Técnico #6</strong></a>: Ciencia de Datos para el Turismo</p>
 <p>Los <strong>documentos metodológicos</strong> buscan abordar las principales problemáticas a la hora de producir estadísticas de turismo sub-nacionales como también reforzar las definiciones y conceptos de turismo según las recomendaciones internacionales.</p>
 <h3 id="capacitaciones">Capacitaciones</h3>
-<p>En una segunda instancia, se prevé la capacitación de puntos focales de los gobiernos sub nacionales que tengan a cargo la administración, generación y/o análisis de estadísticas de turismo en sus respectivos distritos.</p>
-<p>Las <strong>capacitaciones</strong> pretenden fortalecer las capacidades de las y los referentes técnicos provinciales para poder mejorar la producción de estadísticas locales derivadas de los operativos de encuesta, explotación de registros administrativos y otras fuentes de información utilizadas.</p>
+<p>En una segunda instancia, la capacitación de puntos focales de los gobiernos sub nacionales que tengan a cargo la administración, generación y/o análisis de estadísticas de turismo en sus respectivos distritos.</p>
+<p>Las <a href="https://armonizacion.yvera.tur.ar/capacitaciones.html"><strong>capacitaciones</strong></a> pretenden fortalecer las capacidades de las y los referentes técnicos provinciales para poder mejorar la producción de estadísticas locales derivadas de los operativos de encuesta, explotación de registros administrativos y otras fuentes de información utilizadas.</p>
 <h3 id="sistema-federal-de-gestión-de-datos-de-turismo">Sistema Federal de Gestión de Datos de Turismo</h3>
-<p>En paralelo, se procura desarrollar un sistema informático que permita ordenar, homogeneizar, jerarquizar y facilitar la administración de registros, operativos estadísticos y demás datos relativos al sector turísticos de las distintas unidades administrativas.</p>
+<p>En paralelo, se está desarrollando un sistema informático que permita ordenar, homogeneizar, jerarquizar y facilitar la administración de registros, operativos estadísticos y demás datos relativos al sector turísticos de las distintas unidades administrativas.</p>
 <p>Para ello, se trabaja para la construcción de un <strong><em>Sistema Federal de Gestión de Datos de Turismo</em></strong>, herramienta que facilitará el acopio y gestión de datos producidos por los diferentes organismos de turismo sub nacionales.</p>
 <h3 id="espacios-de-colaboración-e-intercambio">Espacios de colaboración e intercambio</h3>
-<p>Con el fin de generar espacios de colaboración entre los distintos actores vinculados a la producción y explotación de las estadísticas de turismo, se gestiona también un foro permanente ordenado en distintos canales temáticos que acompañan el contenido de este micrositio: documentos técnicos, bibliografía y trabajos de interés común.</p>
+<p>Con el fin de generar espacios de colaboración entre los distintos actores vinculados a la producción y explotación de las estadísticas de turismo, se gestiona también un <a href="https://armonizacionespacio.slack.com/"><strong>foro permanente</strong></a> ordenado en distintos canales temáticos que acompañan el contenido de este micrositio: documentos técnicos, bibliografía y trabajos de interés común.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2284,7 +2298,7 @@ Documentos Técnicos
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>Dirección Nacional de Mercados y Estadísticas | Subsecretaría de Desarrollo Estratégico | Ministerio de Turismo y Deportes de la Nación (2021)</p>
+<p>Dirección Nacional de Mercados y Estadística | Subsecretaría de Desarrollo Estratégico | Ministerio de Turismo y Deportes de la Nación (2022)</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 
