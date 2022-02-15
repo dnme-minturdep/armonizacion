@@ -28,7 +28,7 @@ navbar:
     - text: "Acceso"
       menu:
       - text: "Foro"
-        href: https://armonizacionespacio.slack.com/
+        href: https://armonizacion.slack.com/
   right:
     - text: "Datos Abiertos"
       href: http://datos.yvera.gob.ar/
