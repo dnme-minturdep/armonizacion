@@ -1,7 +1,7 @@
 ---
 title: "Capacitaciones"
 description: |
-  Presentaciones y videos
+  Videos y presentaciones utilizadas en las sesiones de capacitación realizadas en 2021. Las mismas se dividen en dos modulos: (1) Propuestas Metodológicas y Definiciones y (2) Ciencia de Datos para el Turismo 
 ---
 
 ```{r setup, include=FALSE}
