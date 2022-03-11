@@ -30,6 +30,8 @@ navbar:
       - text: "Foro"
         href: https://armonizacion.slack.com/
   right:
+    - text: "Calendario"
+      href: http://calendario.yvera.gob.ar/
     - text: "Datos Abiertos"
       href: http://datos.yvera.gob.ar/
     - text: "Bitácora"
