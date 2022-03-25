@@ -6,9 +6,10 @@ description: |
 output_dir: "docs"
 navbar:
   logo:
-    image: logo.png
-    href: https://www.yvera.tur.ar/estadistica/
-  left: 
+    image: sinta.png
+    href: https://www.yvera.tur.ar/sinta/
+  search: false
+  left:
     - text: "Documentos Técnicos"
       menu:
       - text: "#1 Medición del Turismo"
