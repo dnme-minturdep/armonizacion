@@ -46,7 +46,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 📄 [Parques Nacionales](https://github.com/dnme-minturdep/armonizacion/raw/master/man/3.3_PN.pdf) 🔽
 
-📄 [Padrón Único de Alojamiento (PUNA)](https://github.com/dnme-minturdep/armonizacion/raw/master/man/1.2_sistema-estadistica-de-turismo.pdf) 🔽
+📄 [Padrón Único de Alojamiento (PUNA)](https://github.com/dnme-minturdep/armonizacion/raw/master/man/3.2_PUNA.pdf) 🔽
 
 📄 [Transito Vehícular](https://github.com/dnme-minturdep/armonizacion/raw/master/man/3.4_peajes.pdf) 🔽
 
