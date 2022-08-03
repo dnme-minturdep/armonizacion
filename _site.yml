@@ -33,6 +33,8 @@ navbar:
   right:
     - text: "SINTA"
       menu:
+      - text: "Biblioteca"
+        href: https://biblioteca.yvera.tur.ar/
       - text: "Bitácora"
         href: https://bitacora.yvera.tur.ar
       - text: "Calendario"
