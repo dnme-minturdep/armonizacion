@@ -28,6 +28,10 @@ navbar:
       href: capacitaciones.html  
     - text: "Acceso"
       menu:
+      - text: "<data>TUR"
+        href: https://datatur.yvera.tur.ar/
+      - text: "Monitor"
+        href: https://provincias.yvera.tur.ar/
       - text: "Foro"
         href: https://armonizacion.slack.com/
   right:
