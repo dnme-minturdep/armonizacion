@@ -48,9 +48,9 @@ Las [**capacitaciones**](https://armonizacion.yvera.tur.ar/capacitaciones.html) 
 
 ### Sistema Federal de Gestión de Datos de Turismo
 
-En paralelo, se está desarrollando un sistema informático que permita ordenar, homogeneizar, jerarquizar y facilitar la administración de registros, operativos estadísticos y demás datos relativos al sector turísticos de las distintas unidades administrativas.
+En paralelo, se desarrolla un sistema informático para ordenar, homogeneizar, jerarquizar y administrar  registros, operativos estadísticos y demás datos relativos al sector turístico de las distintas unidades administrativas.
 
-Para ello, se trabaja para la construcción de un ***Sistema Federal de Gestión de Datos de Turismo***, herramienta que facilitará el acopio y gestión de datos producidos por los diferentes organismos de turismo sub nacionales.
+Para ello, se trabaja para la construcción de un [**Sistema Federal de Gestión de Datos de Turismo (`<data>TUR`)**](https://datatur.yvera.tur.ar/), herramienta que tiene por objetivo facilitar el acopio y gestión de datos producidos por los diferentes organismos de turismo sub nacionales.
 
 ### Espacios de colaboración e intercambio
 
