@@ -1,7 +1,7 @@
 ---
 title: "ESTADÍSTICAS PROVINCIALES DE TURISMO"
 description: |
- *Armonización de las Estadísticas de Turismo en las Provincias* es un proyecto de la Dirección Nacional de Mercados y Estadística de la Subsecretaría de Desarrollo Estratégico del [Ministerio de Turismo y Deportes](http://turismo.gob.ar/ "MINTURDEP"){target="_blank"}.
+ *Armonización de las Estadísticas de Turismo en las Provincias* es un proyecto de la Dirección Nacional de Mercados y Estadística de la [Subsecretaría de Turismo del Ministerio del Interior](https://www.argentina.gob.ar/interior/turismo){target="_blank"}.
 site: distill::distill_website
 ---
 
